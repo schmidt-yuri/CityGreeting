@@ -22,11 +22,11 @@ public class ZonedTimeGreeterTest {
 	public final TestRule watchman = new TestWatcher() {
 	@Override
 	protected void succeeded(Description description){
-		LOGGER.info("METHOD {} SUCCEEDED.", description.getMethodName());
+		LOGGER.info("TEST of METHOD {} SUCCEEDED.", description.getMethodName());
 	}
 	@Override
 	protected void failed(Throwable e, Description description){
-		LOGGER.error("METHOD {} FAILED with {}.", description.getMethodName(), e.getClass().getSimpleName());
+		LOGGER.error("TEST of METHOD {} FAILED with {}.", description.getMethodName(), e.getClass().getSimpleName());
 	}
 	
 	};
