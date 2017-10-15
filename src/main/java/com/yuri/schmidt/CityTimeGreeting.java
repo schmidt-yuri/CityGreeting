@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 /**
- * Consol e application that prints out greetings when typing the names of cities from around the world.
+ * Console application that prints out greetings when typing the names of cities from around the world.
  * The form of greeting i.e. 'Good morning. Paris!', 'Good evening. New York!' depends on the locale
  * of the city at the moment of typing.
  * The cities must be typed exactly like they are written in the Java TimeZone Ids list. The typing in this
