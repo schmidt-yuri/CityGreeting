@@ -9,11 +9,13 @@ The programm prints out a greeting message for the entered city which depends
 on:
 1. the current time 
 2. the time zone of the city.
+
 The day parts:
 Morning 06:00 - 09:00
 Day	09:00 - 19:00
 Evening	19:00 - 23:00
 Night	23:00 - 06:00
+
 If the entered city name is not in the list of zone identifiers 
 than it is necessary to enter GMT as the second argument(in the format of GMT+/-[a number from 1 to 12].
 The console messages must be extracted from message bundle and they must depend on user's system locale.
